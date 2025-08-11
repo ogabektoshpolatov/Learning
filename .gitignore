@@ -1,0 +1,56 @@
+## Ignore build results
+bin/
+obj/
+
+## Ignore Rider IDE files
+.idea/
+
+## Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+## Ignore build output directories
+**/bin/
+**/obj/
+
+## Ignore other files
+*.log
+*.DS_Store
+*.vscode/
+*.userosscache
+*.sln.docstates
+
+## Ignore test results
+TestResult*/  
+*.coverage
+*.coveragexml
+*.testresult
+
+## Ignore packages folder
+packages/
+*.nupkg
+*.snupkg
+
+## Ignore backup and temporary files
+*~
+*.tmp
+*.bak
+*.swp
+
+## Ignore user-specific files
+*.user
+*.userprefs
+
+## Ignore ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Ignore publish output
+publish/
+
+## Ignore dotnet watch output
+**/Properties/launchSettings.json
+
+## Ignore environment-specific files
+.env
+*.env.*
